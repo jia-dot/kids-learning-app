@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="#A6FFD740"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mb1"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="colour"
+        android:textColor="#F4FF81"
+        android:background="#000fff"
+        android:onClick="nextColor"/>
+
+    <Button
+        android:id="@+id/mb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/mb1"
+        android:background="#FF00D9"
+        android:layout_gravity="center"
+        android:text="shape"
+        android:layout_marginTop="30dp"
+        android:textColor="#F4FF81"
+        android:onClick="nextShapes"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mb3"
+        android:text="Fruit Names"
+        android:textColor="#F4FF81"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#FF6E40"
+        android:onClick="nextFruit"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mb4"
+        android:text="Quiz"
+        android:textColor="#F4FF81"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#F44336"
+        android:onClick="nextQuiz"/>
+
+</LinearLayout>
